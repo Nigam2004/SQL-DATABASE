@@ -10,5 +10,5 @@ create table students(
 
 select * from students;
 
-insert into students (s_name,Age,Email,Join_Date) values ('nigam',20,'nigam@gmail.com',20-02-2025);
-insert into students (s_name,Age,Email,Join_Date) values ('ram',22,'ram@gmail.com',22-02-2025);
+insert into students (s_name,Age,Email,Join_Date) values ('nigam',20,'nigam@gmail.com',2025-20-02);
+insert into students (s_name,Age,Email,Join_Date) values ('ram',22,'ram@gmail.com',2025-20-05);
