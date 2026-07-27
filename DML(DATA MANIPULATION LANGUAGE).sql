@@ -7,7 +7,7 @@ values
 ('depak', 'hr', '2025-10-25', 'bglr', 24000, 20),
 ('rahul', 'executive', '2025-10-25', 'hyd', 30000, 10);
 
-update emp_data set emp_name='sneha' where city='hyd'; --update the filed in a record
+update emp_data set emp_name='sneha' where city='hyd'; --update the field in a record
 delete from emp_data where emp_name='raj'; --delete the record
 
 select * from emp_data;
