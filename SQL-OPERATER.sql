@@ -21,7 +21,12 @@ select emp_name||' '|| salary as combined_name  from emp_data; --concat of text
 select concat(emp_name,' ',emp_name) as combined_name from emp_data; --concat of text
 
 --logical Operater
-select * from emp_data where job_name='finance' and city='dlhi';
+select * from emp_data where job_name='finance' and city='dlhi'; --logical AND
+select * from emp_data where job_name='dataanalyst' or city='dlhi'; --logical OR
+select * from emp_data where not job_name='executive'; --logical NOT
+
+--Relational Operater
+
 
 
 
