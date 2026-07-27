@@ -26,9 +26,9 @@ select * from emp_data where job_name='dataanalyst' or city='dlhi'; --logical OR
 select * from emp_data where not job_name='executive'; --logical NOT
 
 --Relational Operater
-
-
-
+select * from emp_data where salary>25000; --greater than
+select * from emp_data where city='klkt'; --Equals to
+select * from emp_data where dept_no>=20; --Greater than Equals to
 
 
 
