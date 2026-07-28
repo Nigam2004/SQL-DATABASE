@@ -18,7 +18,7 @@ select * from emp_data;
  select avg(salary) from emp_data where dept_no in (10,20);
  select max(salary) from emp_data;
  select min(salary) from emp_data;
- select count(*) from emp_data;
+ select count(*) from emp_data; --it returns the length of record inside the table
 
 --NUMERIC FUNCTION DUAL
  select abs(-7) ; -- it convert -ve value to positive value 
@@ -35,10 +35,26 @@ select * from emp_data;
  select ceil(2.8); --it returns the ceil value/highest :3
  select trunc(2.6);
  select trunc(12.3659,3); --truncates (cuts off) the number to the specified number of decimal places.
- 
- 
 
+ --CHARACTER FUNCTION
+ select upper('hello');
+ select lower('HELLO');
+ select length('hi nigam');  --it returns the length of the text including space
+ select concat('hii',' ','nigam'); --concat of column & text
+ select 'hii'||' '||'nigam'; --concat of column & text
+ select strpos('computer','m'); --it returns the position of the given substring:3
+ select position('m' in 'computer'); --it returns the position of the given substring:3
+ select substr('compuetr',2,4); --it returns the substring from the specified position: ompu
+ select trim('  nigam  '); --it remove the space from both side: nigam
+ select trim('m'from 'mmpumm'); --it remove the 'm' from both side: pu
+ select ltrim('nigam','n'); --it remove the 'n' from left side: igam
+ select ltrim('  hello'); --it removes the space from left side:hello
+ select rtrim('nigam','m'); --it remove the 'm' from right side: niga
+ select lpad('computer',10,'c');  --it add the 'c' upto 10th position from right to left :cccomputer
+ select rpad('computer',10,'r');  --it add the 'r' upto 10th position from left to right :cccomputer
 
+ 
+-- DATE FUNCTION
 
 
 
