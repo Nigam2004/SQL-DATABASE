@@ -8,6 +8,6 @@ values
 ('rahul', 'executive', '2025-10-25', 'hyd', 30000, 10);
 
 update emp_data set emp_name='sneha' where city='hyd'; --update the field in a record
-delete from emp_data where emp_name='raj'; --delete the record
+delete from emp_data where emp_name='raj'; --delete the specific record
 
 select * from emp_data;
