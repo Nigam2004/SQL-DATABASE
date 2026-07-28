@@ -51,16 +51,18 @@ select * from emp_data;
  select ltrim('  hello'); --it removes the space from left side:hello
  select rtrim('nigam','m'); --it remove the 'm' from right side: niga
  select lpad('computer',10,'c');  --it add the 'c' upto 10th position from right to left :cccomputer
- select rpad('computer',10,'r');  --it add the 'r' upto 10th position from left to right :cccomputer
+ select rpad('computer',10,'r');  --it add the 'r' upto 10th position from left to right :computerrr
 
  
--- DATE FUNCTION
-
-
-
-
-
-
+-- DATE/TIME FUNCTION
+ select now(); --it returns :2026-07-28 14:04:41.483171+05:30
+ select current_date; --it returns :2026-07-28
+ select current_timestamp; --it returns :2026-07-28 14:06:18.413389+05:30
+ select date '2026-07-28'+interval '1 month';  --it returns with i month added: 2026-08-28 00:00:00
+ select current_time; --it returns only date : 14:16:27.950137+05:30
+ select localtimestamp; -- it returns local date and time: 2026-07-28 14:18:10.797821
+ select localtime;  --it returns local time only: 14:18:37.532581
+ 
 
 
 
