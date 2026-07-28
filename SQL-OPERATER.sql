@@ -17,8 +17,8 @@ select emp_name,salary,dept_no from emp_data where emp_name like 's%';  --like o
 select emp_name,salary,dept_no from emp_data where emp_name like '_i%';  --like operater
 select emp_name,salary,dept_no from emp_data where emp_name like '%h%';  --like operater
 select * from emp_data where emp_name like '___'; --like operater
-select emp_name||' '|| salary as combined_name  from emp_data; --concat of text
-select concat(emp_name,' ',emp_name) as combined_name from emp_data; --concat of text
+select emp_name||' '|| salary as combined_name  from emp_data; --concat of column & text
+select concat(emp_name,' ',emp_name) as combined_name from emp_data; --concat of column & text
 
 --logical Operater
 select * from emp_data where job_name='finance' and city='dlhi'; --logical AND
