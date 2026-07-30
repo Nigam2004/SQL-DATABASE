@@ -14,7 +14,7 @@ alter table Emp_data RENAME TO emp_all_data; --rename the table
 alter table emp_all_data rename city to city_name; --rename the a column of the table
 alter table emp_all_data add  age int; --add new column
 alter table emp_all_data drop j_date;  --remove column
-alter table emp_all_data alter column emp_name type varchar(80); --modify the datatype od a filed
+alter table emp_all_data alter column emp_name type varchar(80); --modify the datatype of a field
 
 --PERMANENTLY DELETE THE TABLE 
 drop table Emp_data;  --it delete all the record including table
