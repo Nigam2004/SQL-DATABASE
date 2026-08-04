@@ -15,7 +15,7 @@ alter table emp_all_data rename city to city_name; --rename the a column of the 
 alter table emp_all_data add  age int; --add new column
 alter table emp_all_data drop j_date;  --remove column
 alter table emp_all_data alter column emp_name type varchar(80); --modify the datatype of a field
-alter table stud_profile add constraint fk_stud_id foreign key(stu_id) references students(stu_id);
+alter table stud_profile add constraint fk_stud_id foreign key(stu_id) references students(stu_id); --adding the constraint to the column
 --PERMANENTLY DELETE THE TABLE 
 drop table Emp_data;  --it delete all the record including table
 truncate table emp_data; ---delete records only from the table
