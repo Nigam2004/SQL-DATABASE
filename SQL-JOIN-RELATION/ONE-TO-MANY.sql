@@ -1,12 +1,12 @@
-**ONE TO MANY RELATIONSHIP
+-- **ONE TO MANY RELATIONSHIP
 
-| Join Type      | Result                                                              |
-| -------------- | ------------------------------------------------------------------- |
-| **INNER JOIN** | Only matching rows                                                  |
-| **LEFT JOIN**  | All left rows + matching right rows                                 |
-| **RIGHT JOIN** | All right rows + matching left rows                                 |
-| **FULL JOIN**  | All rows from both tables                                           |
-| **CROSS JOIN** | Every row from the first table with every row from the second table |
+-- | Join Type      | Result                                                              |
+-- | -------------- | ------------------------------------------------------------------- |
+-- | **INNER JOIN** | Only matching rows                                                  |
+-- | **LEFT JOIN**  | All left rows + matching right rows                                 |
+-- | **RIGHT JOIN** | All right rows + matching left rows                                 |
+-- | **FULL JOIN**  | All rows from both tables                                           |
+-- | **CROSS JOIN** | Every row from the first table with every row from the second table |
 
 
 --TABLE-1
