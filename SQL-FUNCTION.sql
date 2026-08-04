@@ -20,7 +20,7 @@ select * from emp_data;
  select min(salary) from emp_data;
  select count(*) from emp_data; --it returns the length of record inside the table
 
---NUMERIC FUNCTION DUAL
+--NUMERIC FUNCTION 
  select abs(-7) ; -- it convert -ve value to positive value 
  select greatest (40,-45,0);
  select least (10,-25,-26);
@@ -62,10 +62,3 @@ select * from emp_data;
  select current_time; --it returns only date : 14:16:27.950137+05:30
  select localtimestamp; -- it returns local date and time: 2026-07-28 14:18:10.797821
  select localtime;  --it returns local time only: 14:18:37.532581
- 
-
-
-
-
- 
- 
