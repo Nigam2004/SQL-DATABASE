@@ -1,3 +1,4 @@
+--CASE 
 insert into emp_data(emp_name,job_name,j_date,city,salary,dept_no)
 values 
 ('nigam', 'software', '2025-10-25', 'bbsr', 25000, 10),
